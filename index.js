@@ -1,9 +1,10 @@
-
+function time() {
 // Starts Moment
   var moment = require('moment-timezone');
   
   // Prompt to get the timezone
 var prompt = prompt("What timezone") 
+
 
 // Shows the time in the current timezone
 
@@ -16,3 +17,7 @@ console.log(time)
 var date = moment().format('dddd'); 
 var month = moment().format('MMMM'); 
 
+}
+
+ var guest =  document.getElementById("guest").value;
+  var arav =  document.getElementById("time").value;
